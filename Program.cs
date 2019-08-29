@@ -14,6 +14,7 @@ namespace pipelines_dotnet_core
     {
         public static void Main(string[] args)
         {
+            // this should trigger a build
             CreateWebHostBuilder(args).Build().Run();
         }
 
